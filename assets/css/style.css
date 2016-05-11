@@ -1,0 +1,32 @@
+body{
+	background:url(../images/background.jpg);
+	background-size: 100%;
+	background: absolute;
+	z-index: 1;
+}
+
+form{
+	margin-top: 75px;
+	margin-right: 50px;
+	float: right;
+}
+
+#sci{
+	float: left;
+}
+
+topicDiv{
+	float: left;
+}
+
+#sciButtons{
+	color: blue;
+}
+
+#buttonStyle{
+	margin-right: 5px;
+}
+
+.yup{
+	float: left;
+}
