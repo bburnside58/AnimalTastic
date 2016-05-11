@@ -1,24 +1,23 @@
 body{
 	background:url(../images/background.jpg);
 	background-size: 100%;
-	background: absolute;
-	z-index: 1;
+	/*background: absolute;
+	z-index: 1;*/
 }
 
 form{
-	margin-top: 75px;
-	margin-right: 50px;
+	margin: 70px 50px 0px 0px;
+	/*margin-right: 50px;*/
 	float: right;
 }
 
 #sciButtons{
 	font-family: 'Pacifico', cursive;
-	font-size: 2em;
 }
 
 .imgRateDiv{
 	float: left;
-
+	margin: 0px 3px 0px 3px;
 }
 
 .buttonStyle{
@@ -27,5 +26,5 @@ form{
 
 .btn{
 	background-color: white;
-
+	font-size: 1.4em;
 }
