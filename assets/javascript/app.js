@@ -1,11 +1,11 @@
 console.log("app.js is working");
 
 
-var topics = ["asteroids", "astronomy", "atoms", "bill nye", 
-"biology", "bubbles", "chemistry", "computers", "diy", "engineering", 
-"global warming", "laser", "magnets", "mathematics", "medicine", "meteor", 
-"molecules", "nebula", "nuclear", "physics", "planets", "robot", "space", 
-"stars", "technology"];
+var topics = ["Asteroids", "Astronomy", "Atoms", "Bill Nye", 
+"Biology", "Bubbles", "Chemistry", "Computers", "Diy", "Engineering", 
+"Global Warming", "Laser", "Magnets", "Mathematics", "Medicine", "Meteor", 
+"Molecules", "Nebula", "Nuclear", "Physics", "Planets", "Robot", "Space", 
+"Stars", "Technology"];
 
 function renderButtons(){
 
@@ -15,7 +15,7 @@ function renderButtons(){
 		
 		// Note the jQUery syntax here... 
 	    var b = $('<button>') // This code $('<button>') is all jQuery needs to create the beginning and end tag. (<button></button>)
-	    b.addClass('buttonStyle'); // Added a class 
+	    b.addClass('buttonStyle btn'); // Added a class 
 	    b.attr('data-name', topics[i]); // Added a data-attribute
 	    b.text(topics[i]); // Provided the initial button text
 	    $('#sciButtons').append(b); // Added the button to the HTML		
@@ -83,7 +83,7 @@ $('#sciButtons').on('click', '.buttonStyle', function(){
 	            
 	            topicDiv.append(p)
 	            topicDiv.append(sciImage)
-	            topicDiv.addClass('yup')
+	            topicDiv.addClass('imgRateDiv')
 
 	            //this is what actually pushes to the html and where it goes i.e. #gifsAppearHere id, which is the div set aside for this in the html above
 
@@ -113,7 +113,10 @@ $('#sci').on('click', '.go', function(){
 })
 
 $('#clearpage').on('click', function(){
-	concole
+
+	concole.log("this button is working")
+
+	$('#sci').empty();
 })
 
 renderButtons();

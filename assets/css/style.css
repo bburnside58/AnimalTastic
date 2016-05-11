@@ -11,22 +11,21 @@ form{
 	float: right;
 }
 
-#sci{
-	float: left;
-}
-
-topicDiv{
-	float: left;
-}
-
 #sciButtons{
-	color: blue;
+	font-family: 'Pacifico', cursive;
+	font-size: 2em;
 }
 
-#buttonStyle{
+.imgRateDiv{
+	float: left;
+
+}
+
+.buttonStyle{
 	margin-right: 5px;
 }
 
-.yup{
-	float: left;
+.btn{
+	background-color: white;
+
 }
